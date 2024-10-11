@@ -1,0 +1,757 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4000A4426E5AE006263886A0 /* Pods_testMasonryTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43ABDAE85190F2EC0BB1CE50 /* Pods_testMasonryTests.framework */; };
+		96C74209D3B8B7EB0F15C345 /* Pods_testMasonry_testMasonryUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0596ABB178061EF8BCFE5288 /* Pods_testMasonry_testMasonryUITests.framework */; };
+		CFD9644CD76295CE9CAF0D19 /* Pods_testMasonry.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFE49DE5F1CBB70056B3949C /* Pods_testMasonry.framework */; };
+		E6375BA12CA290590042DDE3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E6375BA02CA290590042DDE3 /* AppDelegate.m */; };
+		E6375BA42CA290590042DDE3 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E6375BA32CA290590042DDE3 /* SceneDelegate.m */; };
+		E6375BA72CA290590042DDE3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E6375BA62CA290590042DDE3 /* ViewController.m */; };
+		E6375BAA2CA290590042DDE3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E6375BA82CA290590042DDE3 /* Main.storyboard */; };
+		E6375BAC2CA2905C0042DDE3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E6375BAB2CA2905C0042DDE3 /* Assets.xcassets */; };
+		E6375BAF2CA2905C0042DDE3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E6375BAD2CA2905C0042DDE3 /* LaunchScreen.storyboard */; };
+		E6375BB22CA2905C0042DDE3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E6375BB12CA2905C0042DDE3 /* main.m */; };
+		E6375BBC2CA2905C0042DDE3 /* testMasonryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E6375BBB2CA2905C0042DDE3 /* testMasonryTests.m */; };
+		E6375BC62CA2905C0042DDE3 /* testMasonryUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E6375BC52CA2905C0042DDE3 /* testMasonryUITests.m */; };
+		E6375BC82CA2905C0042DDE3 /* testMasonryUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E6375BC72CA2905C0042DDE3 /* testMasonryUITestsLaunchTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E6375BB82CA2905C0042DDE3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E6375B942CA290590042DDE3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E6375B9B2CA290590042DDE3;
+			remoteInfo = testMasonry;
+		};
+		E6375BC22CA2905C0042DDE3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E6375B942CA290590042DDE3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E6375B9B2CA290590042DDE3;
+			remoteInfo = testMasonry;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0596ABB178061EF8BCFE5288 /* Pods_testMasonry_testMasonryUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_testMasonry_testMasonryUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E34E781402F38A6DB40764B /* Pods-testMasonry.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-testMasonry.release.xcconfig"; path = "Target Support Files/Pods-testMasonry/Pods-testMasonry.release.xcconfig"; sourceTree = "<group>"; };
+		43ABDAE85190F2EC0BB1CE50 /* Pods_testMasonryTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_testMasonryTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		53C6331BEECF394F9420674C /* Pods-testMasonryTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-testMasonryTests.release.xcconfig"; path = "Target Support Files/Pods-testMasonryTests/Pods-testMasonryTests.release.xcconfig"; sourceTree = "<group>"; };
+		5FDE3EA4707E4C210E6C57DC /* Pods-testMasonry-testMasonryUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-testMasonry-testMasonryUITests.release.xcconfig"; path = "Target Support Files/Pods-testMasonry-testMasonryUITests/Pods-testMasonry-testMasonryUITests.release.xcconfig"; sourceTree = "<group>"; };
+		9DF3B8C8E78662CED268B831 /* Pods-testMasonry-testMasonryUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-testMasonry-testMasonryUITests.debug.xcconfig"; path = "Target Support Files/Pods-testMasonry-testMasonryUITests/Pods-testMasonry-testMasonryUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		AFE49DE5F1CBB70056B3949C /* Pods_testMasonry.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_testMasonry.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDD880994008D84FB7129732 /* Pods-testMasonryTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-testMasonryTests.debug.xcconfig"; path = "Target Support Files/Pods-testMasonryTests/Pods-testMasonryTests.debug.xcconfig"; sourceTree = "<group>"; };
+		E6375B9C2CA290590042DDE3 /* testMasonry.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = testMasonry.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E6375B9F2CA290590042DDE3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E6375BA02CA290590042DDE3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E6375BA22CA290590042DDE3 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		E6375BA32CA290590042DDE3 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		E6375BA52CA290590042DDE3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E6375BA62CA290590042DDE3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E6375BA92CA290590042DDE3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E6375BAB2CA2905C0042DDE3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E6375BAE2CA2905C0042DDE3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E6375BB02CA2905C0042DDE3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E6375BB12CA2905C0042DDE3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E6375BB72CA2905C0042DDE3 /* testMasonryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = testMasonryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E6375BBB2CA2905C0042DDE3 /* testMasonryTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = testMasonryTests.m; sourceTree = "<group>"; };
+		E6375BC12CA2905C0042DDE3 /* testMasonryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = testMasonryUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E6375BC52CA2905C0042DDE3 /* testMasonryUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = testMasonryUITests.m; sourceTree = "<group>"; };
+		E6375BC72CA2905C0042DDE3 /* testMasonryUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = testMasonryUITestsLaunchTests.m; sourceTree = "<group>"; };
+		FFE20C0ECD32BBB183490349 /* Pods-testMasonry.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-testMasonry.debug.xcconfig"; path = "Target Support Files/Pods-testMasonry/Pods-testMasonry.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E6375B992CA290590042DDE3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFD9644CD76295CE9CAF0D19 /* Pods_testMasonry.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6375BB42CA2905C0042DDE3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4000A4426E5AE006263886A0 /* Pods_testMasonryTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6375BBE2CA2905C0042DDE3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96C74209D3B8B7EB0F15C345 /* Pods_testMasonry_testMasonryUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0AB7123979F52549F88FA638 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AFE49DE5F1CBB70056B3949C /* Pods_testMasonry.framework */,
+				0596ABB178061EF8BCFE5288 /* Pods_testMasonry_testMasonryUITests.framework */,
+				43ABDAE85190F2EC0BB1CE50 /* Pods_testMasonryTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E6375B932CA290590042DDE3 = {
+			isa = PBXGroup;
+			children = (
+				E6375B9E2CA290590042DDE3 /* testMasonry */,
+				E6375BBA2CA2905C0042DDE3 /* testMasonryTests */,
+				E6375BC42CA2905C0042DDE3 /* testMasonryUITests */,
+				E6375B9D2CA290590042DDE3 /* Products */,
+				EF3863E2FA2333DCC6189C27 /* Pods */,
+				0AB7123979F52549F88FA638 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E6375B9D2CA290590042DDE3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E6375B9C2CA290590042DDE3 /* testMasonry.app */,
+				E6375BB72CA2905C0042DDE3 /* testMasonryTests.xctest */,
+				E6375BC12CA2905C0042DDE3 /* testMasonryUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E6375B9E2CA290590042DDE3 /* testMasonry */ = {
+			isa = PBXGroup;
+			children = (
+				E6375B9F2CA290590042DDE3 /* AppDelegate.h */,
+				E6375BA02CA290590042DDE3 /* AppDelegate.m */,
+				E6375BA22CA290590042DDE3 /* SceneDelegate.h */,
+				E6375BA32CA290590042DDE3 /* SceneDelegate.m */,
+				E6375BA52CA290590042DDE3 /* ViewController.h */,
+				E6375BA62CA290590042DDE3 /* ViewController.m */,
+				E6375BA82CA290590042DDE3 /* Main.storyboard */,
+				E6375BAB2CA2905C0042DDE3 /* Assets.xcassets */,
+				E6375BAD2CA2905C0042DDE3 /* LaunchScreen.storyboard */,
+				E6375BB02CA2905C0042DDE3 /* Info.plist */,
+				E6375BB12CA2905C0042DDE3 /* main.m */,
+			);
+			path = testMasonry;
+			sourceTree = "<group>";
+		};
+		E6375BBA2CA2905C0042DDE3 /* testMasonryTests */ = {
+			isa = PBXGroup;
+			children = (
+				E6375BBB2CA2905C0042DDE3 /* testMasonryTests.m */,
+			);
+			path = testMasonryTests;
+			sourceTree = "<group>";
+		};
+		E6375BC42CA2905C0042DDE3 /* testMasonryUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E6375BC52CA2905C0042DDE3 /* testMasonryUITests.m */,
+				E6375BC72CA2905C0042DDE3 /* testMasonryUITestsLaunchTests.m */,
+			);
+			path = testMasonryUITests;
+			sourceTree = "<group>";
+		};
+		EF3863E2FA2333DCC6189C27 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FFE20C0ECD32BBB183490349 /* Pods-testMasonry.debug.xcconfig */,
+				1E34E781402F38A6DB40764B /* Pods-testMasonry.release.xcconfig */,
+				9DF3B8C8E78662CED268B831 /* Pods-testMasonry-testMasonryUITests.debug.xcconfig */,
+				5FDE3EA4707E4C210E6C57DC /* Pods-testMasonry-testMasonryUITests.release.xcconfig */,
+				BDD880994008D84FB7129732 /* Pods-testMasonryTests.debug.xcconfig */,
+				53C6331BEECF394F9420674C /* Pods-testMasonryTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E6375B9B2CA290590042DDE3 /* testMasonry */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E6375BCB2CA2905C0042DDE3 /* Build configuration list for PBXNativeTarget "testMasonry" */;
+			buildPhases = (
+				13893D37A2343474A0E36792 /* [CP] Check Pods Manifest.lock */,
+				E6375B982CA290590042DDE3 /* Sources */,
+				E6375B992CA290590042DDE3 /* Frameworks */,
+				E6375B9A2CA290590042DDE3 /* Resources */,
+				96627AE9F539EC7E072928DA /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = testMasonry;
+			productName = testMasonry;
+			productReference = E6375B9C2CA290590042DDE3 /* testMasonry.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E6375BB62CA2905C0042DDE3 /* testMasonryTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E6375BCE2CA2905C0042DDE3 /* Build configuration list for PBXNativeTarget "testMasonryTests" */;
+			buildPhases = (
+				315E2E7EBA324DC5CA1EDC81 /* [CP] Check Pods Manifest.lock */,
+				E6375BB32CA2905C0042DDE3 /* Sources */,
+				E6375BB42CA2905C0042DDE3 /* Frameworks */,
+				E6375BB52CA2905C0042DDE3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E6375BB92CA2905C0042DDE3 /* PBXTargetDependency */,
+			);
+			name = testMasonryTests;
+			productName = testMasonryTests;
+			productReference = E6375BB72CA2905C0042DDE3 /* testMasonryTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E6375BC02CA2905C0042DDE3 /* testMasonryUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E6375BD12CA2905C0042DDE3 /* Build configuration list for PBXNativeTarget "testMasonryUITests" */;
+			buildPhases = (
+				99D241C75C55E05A36AB2F06 /* [CP] Check Pods Manifest.lock */,
+				E6375BBD2CA2905C0042DDE3 /* Sources */,
+				E6375BBE2CA2905C0042DDE3 /* Frameworks */,
+				E6375BBF2CA2905C0042DDE3 /* Resources */,
+				BE0408DA5BEB573007F3CA58 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E6375BC32CA2905C0042DDE3 /* PBXTargetDependency */,
+			);
+			name = testMasonryUITests;
+			productName = testMasonryUITests;
+			productReference = E6375BC12CA2905C0042DDE3 /* testMasonryUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E6375B942CA290590042DDE3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					E6375B9B2CA290590042DDE3 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					E6375BB62CA2905C0042DDE3 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = E6375B9B2CA290590042DDE3;
+					};
+					E6375BC02CA2905C0042DDE3 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = E6375B9B2CA290590042DDE3;
+					};
+				};
+			};
+			buildConfigurationList = E6375B972CA290590042DDE3 /* Build configuration list for PBXProject "testMasonry" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E6375B932CA290590042DDE3;
+			productRefGroup = E6375B9D2CA290590042DDE3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E6375B9B2CA290590042DDE3 /* testMasonry */,
+				E6375BB62CA2905C0042DDE3 /* testMasonryTests */,
+				E6375BC02CA2905C0042DDE3 /* testMasonryUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E6375B9A2CA290590042DDE3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6375BAF2CA2905C0042DDE3 /* LaunchScreen.storyboard in Resources */,
+				E6375BAC2CA2905C0042DDE3 /* Assets.xcassets in Resources */,
+				E6375BAA2CA290590042DDE3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6375BB52CA2905C0042DDE3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6375BBF2CA2905C0042DDE3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		13893D37A2343474A0E36792 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-testMasonry-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		315E2E7EBA324DC5CA1EDC81 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-testMasonryTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		96627AE9F539EC7E072928DA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-testMasonry/Pods-testMasonry-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-testMasonry/Pods-testMasonry-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-testMasonry/Pods-testMasonry-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		99D241C75C55E05A36AB2F06 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-testMasonry-testMasonryUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BE0408DA5BEB573007F3CA58 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-testMasonry-testMasonryUITests/Pods-testMasonry-testMasonryUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-testMasonry-testMasonryUITests/Pods-testMasonry-testMasonryUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-testMasonry-testMasonryUITests/Pods-testMasonry-testMasonryUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E6375B982CA290590042DDE3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6375BA72CA290590042DDE3 /* ViewController.m in Sources */,
+				E6375BA12CA290590042DDE3 /* AppDelegate.m in Sources */,
+				E6375BB22CA2905C0042DDE3 /* main.m in Sources */,
+				E6375BA42CA290590042DDE3 /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6375BB32CA2905C0042DDE3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6375BBC2CA2905C0042DDE3 /* testMasonryTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6375BBD2CA2905C0042DDE3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6375BC82CA2905C0042DDE3 /* testMasonryUITestsLaunchTests.m in Sources */,
+				E6375BC62CA2905C0042DDE3 /* testMasonryUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E6375BB92CA2905C0042DDE3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E6375B9B2CA290590042DDE3 /* testMasonry */;
+			targetProxy = E6375BB82CA2905C0042DDE3 /* PBXContainerItemProxy */;
+		};
+		E6375BC32CA2905C0042DDE3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E6375B9B2CA290590042DDE3 /* testMasonry */;
+			targetProxy = E6375BC22CA2905C0042DDE3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E6375BA82CA290590042DDE3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E6375BA92CA290590042DDE3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E6375BAD2CA2905C0042DDE3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E6375BAE2CA2905C0042DDE3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E6375BC92CA2905C0042DDE3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E6375BCA2CA2905C0042DDE3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E6375BCC2CA2905C0042DDE3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FFE20C0ECD32BBB183490349 /* Pods-testMasonry.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CF62VFZ4T5;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = testMasonry/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.wyq.testMasonry;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E6375BCD2CA2905C0042DDE3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1E34E781402F38A6DB40764B /* Pods-testMasonry.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CF62VFZ4T5;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = testMasonry/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.wyq.testMasonry;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E6375BCF2CA2905C0042DDE3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BDD880994008D84FB7129732 /* Pods-testMasonryTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CF62VFZ4T5;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.wyq.testMasonryTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/testMasonry.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/testMasonry";
+			};
+			name = Debug;
+		};
+		E6375BD02CA2905C0042DDE3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 53C6331BEECF394F9420674C /* Pods-testMasonryTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CF62VFZ4T5;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.wyq.testMasonryTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/testMasonry.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/testMasonry";
+			};
+			name = Release;
+		};
+		E6375BD22CA2905C0042DDE3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9DF3B8C8E78662CED268B831 /* Pods-testMasonry-testMasonryUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CF62VFZ4T5;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.wyq.testMasonryUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = testMasonry;
+			};
+			name = Debug;
+		};
+		E6375BD32CA2905C0042DDE3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5FDE3EA4707E4C210E6C57DC /* Pods-testMasonry-testMasonryUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CF62VFZ4T5;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.wyq.testMasonryUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = testMasonry;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E6375B972CA290590042DDE3 /* Build configuration list for PBXProject "testMasonry" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E6375BC92CA2905C0042DDE3 /* Debug */,
+				E6375BCA2CA2905C0042DDE3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E6375BCB2CA2905C0042DDE3 /* Build configuration list for PBXNativeTarget "testMasonry" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E6375BCC2CA2905C0042DDE3 /* Debug */,
+				E6375BCD2CA2905C0042DDE3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E6375BCE2CA2905C0042DDE3 /* Build configuration list for PBXNativeTarget "testMasonryTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E6375BCF2CA2905C0042DDE3 /* Debug */,
+				E6375BD02CA2905C0042DDE3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E6375BD12CA2905C0042DDE3 /* Build configuration list for PBXNativeTarget "testMasonryUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E6375BD22CA2905C0042DDE3 /* Debug */,
+				E6375BD32CA2905C0042DDE3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E6375B942CA290590042DDE3 /* Project object */;
+}
