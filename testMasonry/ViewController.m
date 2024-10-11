@@ -85,7 +85,7 @@
         make.top.mas_equalTo(100);
         make.centerX.equalTo(self.view.mas_centerX);
     }];
-    
+    ///asdasdasdasds
     #pragma mark - 协议
     [agrementLabelView mas_makeConstraints:^(MASConstraintMaker *make) {
         //距离底部
