@@ -103,10 +103,6 @@
         //底部
         make.bottom.equalTo(agrementLabelView.mas_top).offset(-30);
     }];
-    
-    
-    
-    
 }
 
 @end
